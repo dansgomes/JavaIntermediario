@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/Formulario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/TesteEnum.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos Java sobre as classes Enum e sua utilização com construtor e métodos.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/TesteEnum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/TesteValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/DiaSemanaAvancado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/DiaSemanaAvancado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,8 @@
   "keyToString": {
     "Application.Teste.executor": "Run",
     "Application.TesteEnum.executor": "Run",
+    "Application.TesteEnum2.executor": "Run",
+    "Application.TesteValue.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -57,7 +57,7 @@
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteEnum">
+  <component name="RunManager" selected="Application.TesteEnum2">
     <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.Teste" />
       <module name="JavaIntermediario" />
@@ -84,8 +84,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteEnum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.TesteEnum2" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosEnum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.TesteValue" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosEnum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteEnum2" />
+        <item itemvalue="Application.TesteValue" />
         <item itemvalue="Application.TesteEnum" />
         <item itemvalue="Application.Teste" />
       </list>
@@ -107,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708020943305</updated>
       <workItem from="1708020944849" duration="4838000" />
-      <workItem from="1708099256238" duration="4103000" />
+      <workItem from="1708099256238" duration="4949000" />
     </task>
     <task id="LOCAL-00001" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
       <option name="closed" value="true" />
@@ -125,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708026858098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Estudos Java sobre as classes Enum e sua utilização com construtor e métodos.">
+      <option name="closed" value="true" />
+      <created>1708103946706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708103946706</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes." />
+    <MESSAGE value="Estudos Java sobre as classes Enum e sua utilização com construtor e métodos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudos Java sobre as classes Enum e sua utilização com construtor e métodos." />
   </component>
 </project>
