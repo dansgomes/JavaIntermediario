@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos Java sobre as classes Enum e seus métodos values e valueOf.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/GeraCpfCnpj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/TesteDocumento.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos Java sobre as classes Enum e seu uso com métodos abstratos.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/TipoDocumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/TipoDocumento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +57,9 @@
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteDocumento">
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.Teste" />
+  <component name="RunManager" selected="Application.Calculadora">
+    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.Calculadora" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.TesteDocumento" />
         <item itemvalue="Application.TesteEnum2" />
         <item itemvalue="Application.TesteValue" />
         <item itemvalue="Application.TesteEnum" />
-        <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +150,7 @@
       <updated>1708020943305</updated>
       <workItem from="1708020944849" duration="4838000" />
       <workItem from="1708099256238" duration="6160000" />
-      <workItem from="1708357202632" duration="2112000" />
+      <workItem from="1708357202632" duration="3630000" />
     </task>
     <task id="LOCAL-00001" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
       <option name="closed" value="true" />
@@ -195,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708108217815</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Estudos Java sobre as classes Enum e seu uso com métodos abstratos.">
+      <option name="closed" value="true" />
+      <created>1708359481748</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708359481748</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +210,7 @@
     <MESSAGE value="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes." />
     <MESSAGE value="Estudos Java sobre as classes Enum e sua utilização com construtor e métodos." />
     <MESSAGE value="Estudos Java sobre as classes Enum e seus métodos values e valueOf." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudos Java sobre as classes Enum e seus métodos values e valueOf." />
+    <MESSAGE value="Estudos Java sobre as classes Enum e seu uso com métodos abstratos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudos Java sobre as classes Enum e seu uso com métodos abstratos." />
   </component>
 </project>
