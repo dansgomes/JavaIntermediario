@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos Java sobre as classes Enum e seu uso com métodos abstratos.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEnum/Calculadora.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Conclusão dos estudos de Enum criando uma calculadora seguindo as regras do exercício proposto.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/estudosWrappers/TesteWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +35,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calculadora.executor": "Run",
     "Application.Teste.executor": "Run",
     "Application.TesteDocumento.executor": "Run",
     "Application.TesteEnum.executor": "Run",
     "Application.TesteEnum2.executor": "Run",
     "Application.TesteValue.executor": "Run",
+    "Application.TesteWrapper.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -57,7 +59,7 @@
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculadora">
+  <component name="RunManager" selected="Application.TesteWrapper">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.Calculadora" />
       <module name="JavaIntermediario" />
@@ -73,19 +75,6 @@
     </configuration>
     <configuration name="TesteDocumento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.TesteDocumento" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosEnum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.TesteEnum" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estudosWrappers.TesteWrapper" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="estudosWrappers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteWrapper" />
         <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.TesteDocumento" />
         <item itemvalue="Application.TesteEnum2" />
         <item itemvalue="Application.TesteValue" />
-        <item itemvalue="Application.TesteEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +152,7 @@
       <updated>1708020943305</updated>
       <workItem from="1708020944849" duration="4838000" />
       <workItem from="1708099256238" duration="6160000" />
-      <workItem from="1708357202632" duration="3630000" />
+      <workItem from="1708357202632" duration="5925000" />
     </task>
     <task id="LOCAL-00001" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
       <option name="closed" value="true" />
@@ -200,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708359481748</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Conclusão dos estudos de Enum criando uma calculadora seguindo as regras do exercício proposto.">
+      <option name="closed" value="true" />
+      <created>1708361517891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708361517891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +221,7 @@
     <MESSAGE value="Estudos Java sobre as classes Enum e sua utilização com construtor e métodos." />
     <MESSAGE value="Estudos Java sobre as classes Enum e seus métodos values e valueOf." />
     <MESSAGE value="Estudos Java sobre as classes Enum e seu uso com métodos abstratos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudos Java sobre as classes Enum e seu uso com métodos abstratos." />
+    <MESSAGE value="Conclusão dos estudos de Enum criando uma calculadora seguindo as regras do exercício proposto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Conclusão dos estudos de Enum criando uma calculadora seguindo as regras do exercício proposto." />
   </component>
 </project>
