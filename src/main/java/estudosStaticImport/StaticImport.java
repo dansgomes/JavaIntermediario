@@ -1,6 +1,6 @@
 package estudosStaticImport;
 
-import java.lang.
+import java.lang.Math;
 public class StaticImport {
     public static void main (String [] args){
 
