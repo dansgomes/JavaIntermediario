@@ -1,4 +1,4 @@
-package estudosWrappers;
+package com.javaintermediario.estudosWrappers;
 
 //Classes wrappers foram consideradas primitivas e depreciadas desde o java 9
 public class TesteWrapper {

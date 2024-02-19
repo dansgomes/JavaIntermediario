@@ -1,4 +1,4 @@
-package estudosWrappers;
+package com.javaintermediario.estudosWrappers;
 
 public class TesteAutoboxing {
     public static void main(String[] args){
