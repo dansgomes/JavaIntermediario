@@ -16,7 +16,7 @@ public class TesteWrapper {
        //You shall use Short.valueOf. This is taken from the javadoc
         Short.valueOf((short) 1); //num7 = new Short((short) 1);
         Byte.valueOf((byte) 10);//Byte num8 = new Byte((byte) 10);
-       Integer.valueOf(100);//Integer num9 = new Integer(100);
+       Integer num9 = Integer.valueOf(100);//Integer num9 = new Integer(100);
        Long.valueOf( 1000l);//Long num10 = new Long(10000l);
        Float.valueOf(3.5f);//Float num11 = new Float(3.5f);
        Double.valueOf(3.5555);//Double num12 = new Double(3.55555);
@@ -24,5 +24,7 @@ public class TesteWrapper {
        Character.valueOf('b');//Character b = new Character('b');
 
        //Integer num13 = new Integer();
+
+        System.out.println(num9);
     }
 }
