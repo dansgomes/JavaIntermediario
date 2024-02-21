@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos sobre importação estática de classes utilizando java.lang antes da classe.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEscopoVariaveis/EscopoVariaveis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEscopoVariaveis/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estudosStaticImport/StaticImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStaticImport/StaticImport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,7 +63,7 @@
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticImport">
+  <component name="RunManager" selected="Application.Teste">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.Calculadora" />
       <module name="JavaIntermediario" />
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAutoboxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estudosWrappers.TesteAutoboxing" />
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEscopoVariaveis.Teste" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estudosWrappers.*" />
+          <option name="PATTERN" value="com.javaintermediario.estudosEscopoVariaveis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteDocumento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEnum.TesteDocumento" />
+    <configuration name="TesteAutoboxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estudosWrappers.TesteAutoboxing" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosEnum.*" />
+          <option name="PATTERN" value="estudosWrappers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste" />
         <item itemvalue="Application.StaticImport" />
         <item itemvalue="Application.TesteAutoboxing" />
         <item itemvalue="Application.TesteWrapper" />
         <item itemvalue="Application.Calculadora" />
-        <item itemvalue="Application.TesteDocumento" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +158,7 @@
       <workItem from="1708099256238" duration="6160000" />
       <workItem from="1708357202632" duration="8755000" />
       <workItem from="1708529900800" duration="2329000" />
-      <workItem from="1708541088474" duration="293000" />
+      <workItem from="1708541088474" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
       <option name="closed" value="true" />
@@ -246,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708367064476</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Estudos sobre importação estática de classes utilizando java.lang antes da classe.">
+      <option name="closed" value="true" />
+      <created>1708541573248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708541573248</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
