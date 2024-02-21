@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos sobre Escopo de variáveis em Java, vendo como e onde podem ser utilizados e reutilizados se dentro de uma classe, método ou bloco.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEscopoVariaveis/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosEscopoVariaveis/PassagemValorParametro.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos sobre passagem de parametros por valor (tipos primitivos) e por referencia (classe, enum, array) e quais delas são modificadas e como funciona o empilhamento de memória em Java.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosVarargs/exemploVarargs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PassagemValorParametro">
+  <component name="RunManager" selected="Application.exemploVarargs">
     <configuration name="PassagemValorParametro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosEscopoVariaveis.PassagemValorParametro" />
       <module name="JavaIntermediario" />
@@ -117,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estudosWrappers.TesteWrapper" />
+    <configuration name="exemploVarargs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosVarargs.exemploVarargs" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estudosWrappers.*" />
+          <option name="PATTERN" value="com.javaintermediario.estudosVarargs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exemploVarargs" />
         <item itemvalue="Application.PassagemValorParametro" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.StaticImport" />
         <item itemvalue="Application.TesteAutoboxing" />
-        <item itemvalue="Application.TesteWrapper" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +158,7 @@
       <workItem from="1708099256238" duration="6160000" />
       <workItem from="1708357202632" duration="8755000" />
       <workItem from="1708529900800" duration="2329000" />
-      <workItem from="1708541088474" duration="5182000" />
+      <workItem from="1708541088474" duration="5828000" />
     </task>
     <task id="LOCAL-00001" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
       <option name="closed" value="true" />
@@ -265,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708543833227</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Estudos sobre passagem de parametros por valor (tipos primitivos) e por referencia (classe, enum, array) e quais delas são modificadas e como funciona o empilhamento de memória em Java.">
+      <option name="closed" value="true" />
+      <created>1708546456455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708546456455</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +288,7 @@
     <MESSAGE value="Estudos sobre as classes wrappers dessa vez focando nos conceito de autoboxing e unboxing." />
     <MESSAGE value="Estudos sobre importação estática de classes utilizando java.lang antes da classe." />
     <MESSAGE value="Estudos sobre Escopo de variáveis em Java, vendo como e onde podem ser utilizados e reutilizados se dentro de uma classe, método ou bloco." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudos sobre Escopo de variáveis em Java, vendo como e onde podem ser utilizados e reutilizados se dentro de uma classe, método ou bloco." />
+    <MESSAGE value="Estudos sobre passagem de parametros por valor (tipos primitivos) e por referencia (classe, enum, array) e quais delas são modificadas e como funciona o empilhamento de memória em Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudos sobre passagem de parametros por valor (tipos primitivos) e por referencia (classe, enum, array) e quais delas são modificadas e como funciona o empilhamento de memória em Java." />
   </component>
 </project>
