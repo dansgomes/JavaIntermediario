@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos sobre as classes wrappers dessa vez focando nos conceito de autoboxing e unboxing.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/estudosStaticImport/StaticImport.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos sobre importação estática de classes utilizando java.lang antes da classe.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estudosWrappers/TesteAutoboxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosWrappers/TesteAutoboxing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/estudosWrappers/TesteWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosWrappers/TesteWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/estudosStaticImport/StaticImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStaticImport/StaticImport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,29 +33,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Calculadora.executor": "Run",
-    "Application.StaticImport.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "Application.TesteAutoboxing.executor": "Run",
-    "Application.TesteDocumento.executor": "Run",
-    "Application.TesteEnum.executor": "Run",
-    "Application.TesteEnum2.executor": "Run",
-    "Application.TesteValue.executor": "Run",
-    "Application.TesteWrapper.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticImport.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteAutoboxing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteDocumento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteEnum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteEnum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
@@ -156,7 +154,9 @@
       <updated>1708020943305</updated>
       <workItem from="1708020944849" duration="4838000" />
       <workItem from="1708099256238" duration="6160000" />
-      <workItem from="1708357202632" duration="8645000" />
+      <workItem from="1708357202632" duration="8755000" />
+      <workItem from="1708529900800" duration="2329000" />
+      <workItem from="1708541088474" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
       <option name="closed" value="true" />
@@ -230,7 +230,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708366203533</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Estudos sobre importação estática de classes utilizando java.lang antes da classe.">
+      <option name="closed" value="true" />
+      <created>1708367015387</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708367015387</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Estudos sobre importação estática de classes utilizando java.lang antes da classe.">
+      <option name="closed" value="true" />
+      <created>1708367064476</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708367064476</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +260,7 @@
     <MESSAGE value="Conclusão dos estudos de Enum criando uma calculadora seguindo as regras do exercício proposto." />
     <MESSAGE value="Estudos sobre as classes wrappers, porem elas se tornaram desatualizadas e no lugar usamos valurOf()." />
     <MESSAGE value="Estudos sobre as classes wrappers dessa vez focando nos conceito de autoboxing e unboxing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudos sobre as classes wrappers dessa vez focando nos conceito de autoboxing e unboxing." />
+    <MESSAGE value="Estudos sobre importação estática de classes utilizando java.lang antes da classe." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudos sobre importação estática de classes utilizando java.lang antes da classe." />
   </component>
 </project>
