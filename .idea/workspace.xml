@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudos Java sobre conceitos de Varargs que são usados quando um método necessita de n parâmetros para ser executado, funciona semelhante ao vetor[] e se utiliza o nome da superclasse do tipo primitivo (ex:Integer) três pontos e o nome da variável: static a (Integer... result).">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosPrintF/ExemploPrintf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosPrintF/ExemploPrintf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosPrintF/ExemploPrintf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,36 +34,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Calculadora.executor": "Run",
-    "Application.ExemploPrintf.executor": "Run",
-    "Application.PassagemValorParametro.executor": "Run",
-    "Application.StaticImport.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "Application.TesteAutoboxing.executor": "Run",
-    "Application.TesteDocumento.executor": "Run",
-    "Application.TesteEnum.executor": "Run",
-    "Application.TesteEnum2.executor": "Run",
-    "Application.TesteValue.executor": "Run",
-    "Application.TesteWrapper.executor": "Run",
-    "Application.exemploVarargs.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExemploPrintf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassagemValorParametro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticImport.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteAutoboxing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteDocumento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteEnum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteEnum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exemploVarargs.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaIntermediario [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunManager" selected="Application.ExemploPrintf">
     <configuration name="ExemploPrintf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -144,7 +154,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
