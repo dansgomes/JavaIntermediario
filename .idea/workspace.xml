@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo sobre system.out.format e como ele pode ser usado para editar as notações do seu print">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesAninhadas/Anonima.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesAninhadas/Externa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesAninhadas/Externa2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesAninhadas/Texto.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo sobre classes aninhadas umas nas outras, podendo elas serem internas, locais e anônimas;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosAnotacoes/InformacaoAula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosAnotacoes/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,39 +36,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Anonima.executor": "Run",
-    "Application.Calculadora.executor": "Run",
-    "Application.ExemploPrintf.executor": "Run",
-    "Application.Externa.executor": "Run",
-    "Application.PassagemValorParametro.executor": "Run",
-    "Application.StaticImport.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "Application.TesteAutoboxing.executor": "Run",
-    "Application.TesteDocumento.executor": "Run",
-    "Application.TesteEnum.executor": "Run",
-    "Application.TesteEnum2.executor": "Run",
-    "Application.TesteValue.executor": "Run",
-    "Application.TesteWrapper.executor": "Run",
-    "Application.exemploVarargs.executor": "Run",
-    "Maven.JavaIntermediario [clean,install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Anonima.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExemploPrintf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Externa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassagemValorParametro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticImport.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteAutoboxing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteDocumento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteEnum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteEnum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exemploVarargs.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.JavaIntermediario [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rafae\IdeaProjects\JavaIntermediario\src\main\java\com\javaintermediario" />
@@ -305,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709683848212</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Estudo sobre classes aninhadas umas nas outras, podendo elas serem internas, locais e anônimas;">
+      <option name="closed" value="true" />
+      <created>1709758709764</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709758709765</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +331,7 @@
     <MESSAGE value="Estudos sobre passagem de parametros por valor (tipos primitivos) e por referencia (classe, enum, array) e quais delas são modificadas e como funciona o empilhamento de memória em Java." />
     <MESSAGE value="Estudos Java sobre conceitos de Varargs que são usados quando um método necessita de n parâmetros para ser executado, funciona semelhante ao vetor[] e se utiliza o nome da superclasse do tipo primitivo (ex:Integer) três pontos e o nome da variável: static a (Integer... result)." />
     <MESSAGE value="Estudo sobre system.out.format e como ele pode ser usado para editar as notações do seu print" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo sobre system.out.format e como ele pode ser usado para editar as notações do seu print" />
+    <MESSAGE value="Estudo sobre classes aninhadas umas nas outras, podendo elas serem internas, locais e anônimas;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo sobre classes aninhadas umas nas outras, podendo elas serem internas, locais e anônimas;" />
   </component>
 </project>
