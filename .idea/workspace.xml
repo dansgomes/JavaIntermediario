@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo sobre threads nessa aula estudando sobre prioridades das Threads utilizando setPriority.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/MinhaThreadSoma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/TesteCalculadora.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo sobre threads e dessa vez criando uma calculadora e testando que os valores do cálculo estavam sendo compartilhados entre as threads danificando o resultado e aprendendo sobre a palavra chave synchronized.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/TesteTicTac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/ThreadTicTac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/TicTac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.TesteDocumento.executor": "Run",
     "Application.TesteEnum.executor": "Run",
     "Application.TesteEnum2.executor": "Run",
+    "Application.TesteTicTac.executor": "Run",
     "Application.TesteValue.executor": "Run",
     "Application.TesteWrapper.executor": "Run",
     "Application.exemploVarargs.executor": "Run",
@@ -87,20 +88,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteCalculadora">
-    <configuration name="Teste3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.Teste3" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TesteTicTac">
     <configuration name="Teste4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.Teste4" />
       <module name="JavaIntermediario" />
@@ -153,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteTicTac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.TesteTicTac" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteTicTac" />
         <item itemvalue="Application.TesteCalculadora" />
         <item itemvalue="Application.Teste6" />
         <item itemvalue="Application.Teste5" />
         <item itemvalue="Application.Teste4" />
-        <item itemvalue="Application.Teste3" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710349705891</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Estudo sobre threads e dessa vez criando uma calculadora e testando que os valores do cálculo estavam sendo compartilhados entre as threads danificando o resultado e aprendendo sobre a palavra chave synchronized.">
+      <option name="closed" value="true" />
+      <created>1710351781579</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710351781579</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +403,7 @@
     <MESSAGE value="Estudo sobre threads e dessa vez implementando a classe Runnable ao invés deextends Thread, comparando as duas e aprendendo a utilizar cada uma na situação adequada" />
     <MESSAGE value="Estudo sobre threads e dessa aprendendo sobre método isAlive() utilizando while e o método join() para visualizar uma mensagem após uma execução de threads." />
     <MESSAGE value="Estudo sobre threads nessa aula estudando sobre prioridades das Threads utilizando setPriority." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo sobre threads nessa aula estudando sobre prioridades das Threads utilizando setPriority." />
+    <MESSAGE value="Estudo sobre threads e dessa vez criando uma calculadora e testando que os valores do cálculo estavam sendo compartilhados entre as threads danificando o resultado e aprendendo sobre a palavra chave synchronized." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo sobre threads e dessa vez criando uma calculadora e testando que os valores do cálculo estavam sendo compartilhados entre as threads danificando o resultado e aprendendo sobre a palavra chave synchronized." />
   </component>
 </project>
