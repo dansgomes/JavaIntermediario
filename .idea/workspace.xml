@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo sobre threads e dessa vez criando um programa Tic Tac pra conhecer e testar os métodos notify, wait e notifyAll.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/MinhaThreadResume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/TesteResume.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo teórico sobre threads e seus métodos resume, suspend e stop.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/Deadlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,7 @@
     "Application.Anonima.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
+    "Application.Deadlock.executor": "Run",
     "Application.ExemploPrintf.executor": "Run",
     "Application.Externa.executor": "Run",
     "Application.PassagemValorParametro.executor": "Run",
@@ -88,9 +88,9 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteResume">
-    <configuration name="Teste5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.Teste5" />
+  <component name="RunManager" selected="Application.Deadlock">
+    <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.Deadlock" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.TesteResume" />
         <item itemvalue="Application.TesteTicTac" />
         <item itemvalue="Application.TesteCalculadora" />
         <item itemvalue="Application.Teste6" />
-        <item itemvalue="Application.Teste5" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710362002967</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Estudo teórico sobre threads e seus métodos resume, suspend e stop.">
+      <option name="closed" value="true" />
+      <created>1710530827839</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710530827839</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,6 +421,7 @@
     <MESSAGE value="Estudo sobre threads nessa aula estudando sobre prioridades das Threads utilizando setPriority." />
     <MESSAGE value="Estudo sobre threads e dessa vez criando uma calculadora e testando que os valores do cálculo estavam sendo compartilhados entre as threads danificando o resultado e aprendendo sobre a palavra chave synchronized." />
     <MESSAGE value="Estudo sobre threads e dessa vez criando um programa Tic Tac pra conhecer e testar os métodos notify, wait e notifyAll." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo sobre threads e dessa vez criando um programa Tic Tac pra conhecer e testar os métodos notify, wait e notifyAll." />
+    <MESSAGE value="Estudo teórico sobre threads e seus métodos resume, suspend e stop." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo teórico sobre threads e seus métodos resume, suspend e stop." />
   </component>
 </project>
