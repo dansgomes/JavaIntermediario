@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo teórico sobre threads e seus métodos resume, suspend e stop.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/CorSemaforo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/SimuladorSemaforo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/ThreadSemaforo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -44,6 +46,7 @@
     "Application.ExemploPrintf.executor": "Run",
     "Application.Externa.executor": "Run",
     "Application.PassagemValorParametro.executor": "Run",
+    "Application.SimuladorSemaforo.executor": "Run",
     "Application.StaticImport.executor": "Run",
     "Application.Teste.executor": "Run",
     "Application.Teste2.executor": "Run",
@@ -88,7 +91,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Deadlock">
+  <component name="RunManager" selected="Application.SimuladorSemaforo">
     <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.Deadlock" />
       <module name="JavaIntermediario" />
@@ -102,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.Teste6" />
+    <configuration name="SimuladorSemaforo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.SimuladorSemaforo" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimuladorSemaforo" />
         <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.TesteResume" />
         <item itemvalue="Application.TesteTicTac" />
         <item itemvalue="Application.TesteCalculadora" />
-        <item itemvalue="Application.Teste6" />
       </list>
     </recent_temporary>
   </component>
