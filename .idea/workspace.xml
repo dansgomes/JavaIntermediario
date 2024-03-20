@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Aula75.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre Strings e suas diversas funcionalidades e diferenças assim como descobrindo sobre como cada uma se comporta em espaço de memória.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Aula76.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
   "keyToString": {
     "Application.Anonima.executor": "Run",
     "Application.Aula75.executor": "Run",
+    "Application.Aula76.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -90,9 +91,22 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aula75">
+  <component name="RunManager" selected="Application.Aula76">
     <configuration name="Aula75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula75" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aula76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula76" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
@@ -143,26 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteTicTac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.TesteTicTac" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula76" />
         <item itemvalue="Application.Aula75" />
         <item itemvalue="Application.SimuladorSemaforo" />
         <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.TesteResume" />
-        <item itemvalue="Application.TesteTicTac" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710794048665</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Estudo Sobre Strings e suas diversas funcionalidades e diferenças assim como descobrindo sobre como cada uma se comporta em espaço de memória.">
+      <option name="closed" value="true" />
+      <created>1710902220873</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710902220873</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +442,7 @@
     <MESSAGE value="Estudo sobre threads e dessa vez criando um programa Tic Tac pra conhecer e testar os métodos notify, wait e notifyAll." />
     <MESSAGE value="Estudo teórico sobre threads e seus métodos resume, suspend e stop." />
     <MESSAGE value="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo." />
+    <MESSAGE value="Estudo Sobre Strings e suas diversas funcionalidades e diferenças assim como descobrindo sobre como cada uma se comporta em espaço de memória." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre Strings e suas diversas funcionalidades e diferenças assim como descobrindo sobre como cada uma se comporta em espaço de memória." />
   </component>
 </project>
