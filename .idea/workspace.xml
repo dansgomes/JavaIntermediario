@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo teórico sobre threads e seus métodos resume, suspend e stop.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/CorSemaforo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/SimuladorSemaforo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosThread/ThreadSemaforo.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Aula75.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Anonima.executor": "Run",
+    "Application.Aula75.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -91,7 +90,20 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimuladorSemaforo">
+  <component name="RunManager" selected="Application.Aula75">
+    <configuration name="Aula75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula75" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Deadlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.Deadlock" />
       <module name="JavaIntermediario" />
@@ -107,19 +119,6 @@
     </configuration>
     <configuration name="SimuladorSemaforo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.SimuladorSemaforo" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.TesteCalculadora" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula75" />
         <item itemvalue="Application.SimuladorSemaforo" />
         <item itemvalue="Application.Deadlock" />
         <item itemvalue="Application.TesteResume" />
         <item itemvalue="Application.TesteTicTac" />
-        <item itemvalue="Application.TesteCalculadora" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710530827839</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo.">
+      <option name="closed" value="true" />
+      <created>1710794048665</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710794048665</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +432,7 @@
     <MESSAGE value="Estudo sobre threads e dessa vez criando uma calculadora e testando que os valores do cálculo estavam sendo compartilhados entre as threads danificando o resultado e aprendendo sobre a palavra chave synchronized." />
     <MESSAGE value="Estudo sobre threads e dessa vez criando um programa Tic Tac pra conhecer e testar os métodos notify, wait e notifyAll." />
     <MESSAGE value="Estudo teórico sobre threads e seus métodos resume, suspend e stop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo teórico sobre threads e seus métodos resume, suspend e stop." />
+    <MESSAGE value="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo." />
   </component>
 </project>
