@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre Strings e dessa vez sobre extração e manipulação de chars, estudando sobre os métodos charAt, getChars, getBytes e toCharArray">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Aula78.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre Strings e dessa vez sobre os métodos de comparação de Strings como equalsIgnoreCase, regionsMatches, startsWith, endsWith e compareTo.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Aula79.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "Application.Aula76.executor": "Run",
     "Application.Aula77.executor": "Run",
     "Application.Aula78.executor": "Run",
+    "Application.Aula79.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -93,7 +94,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aula78">
+  <component name="RunManager" selected="Application.Aula79">
     <configuration name="Aula75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula75" />
       <module name="JavaIntermediario" />
@@ -146,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimuladorSemaforo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosThread.SimuladorSemaforo" />
+    <configuration name="Aula79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula79" />
       <module name="JavaIntermediario" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosThread.*" />
+          <option name="PATTERN" value="com.javaintermediario.estudosStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula79" />
         <item itemvalue="Application.Aula78" />
         <item itemvalue="Application.Aula77" />
         <item itemvalue="Application.Aula76" />
         <item itemvalue="Application.Aula75" />
-        <item itemvalue="Application.SimuladorSemaforo" />
       </list>
     </recent_temporary>
   </component>
@@ -430,14 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711036381182</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Estudo Sobre Strings e dessa vez sobre os métodos de comparação de Strings como equalsIgnoreCase, regionsMatches, startsWith, endsWith e compareTo.">
+      <option name="closed" value="true" />
+      <created>1711056093285</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711056093285</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Estudos Java sobre as classes Enum e sua utilização com construtor e métodos." />
     <MESSAGE value="Estudos Java sobre as classes Enum e seus métodos values e valueOf." />
     <MESSAGE value="Estudos Java sobre as classes Enum e seu uso com métodos abstratos." />
     <MESSAGE value="Conclusão dos estudos de Enum criando uma calculadora seguindo as regras do exercício proposto." />
@@ -462,6 +470,7 @@
     <MESSAGE value="Estudo Sobre Strings e suas diversas funcionalidades e diferenças assim como descobrindo sobre como cada uma se comporta em espaço de memória." />
     <MESSAGE value="Estudo Sobre Strings e suas sua concatenação e como Strings se comportam em consumo de memória e performance quando são concatenadas assim como exemplos demonstrados de más práticas." />
     <MESSAGE value="Estudo Sobre Strings e dessa vez sobre extração e manipulação de chars, estudando sobre os métodos charAt, getChars, getBytes e toCharArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre Strings e dessa vez sobre extração e manipulação de chars, estudando sobre os métodos charAt, getChars, getBytes e toCharArray" />
+    <MESSAGE value="Estudo Sobre Strings e dessa vez sobre os métodos de comparação de Strings como equalsIgnoreCase, regionsMatches, startsWith, endsWith e compareTo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre Strings e dessa vez sobre os métodos de comparação de Strings como equalsIgnoreCase, regionsMatches, startsWith, endsWith e compareTo." />
   </component>
 </project>
