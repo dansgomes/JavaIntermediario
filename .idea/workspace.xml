@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre Strings e dessa vez sobre os métodos substring, concat, replace e trim.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Aula81.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre Strings e dessa vez sobre os métodos toLowerCase e toUpperCase.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Aula82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosStrings/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,7 @@
     "Application.Aula79.executor": "Run",
     "Application.Aula80.executor": "Run",
     "Application.Aula81.executor": "Run",
+    "Application.Aula82.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -96,20 +98,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aula81">
-    <configuration name="Aula77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula77" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Aula82">
     <configuration name="Aula78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula78" />
       <module name="JavaIntermediario" />
@@ -162,13 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Aula82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula82" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula82" />
         <item itemvalue="Application.Aula81" />
         <item itemvalue="Application.Aula80" />
         <item itemvalue="Application.Aula79" />
         <item itemvalue="Application.Aula78" />
-        <item itemvalue="Application.Aula77" />
       </list>
     </recent_temporary>
   </component>
@@ -457,14 +459,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711139359942</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Estudo Sobre Strings e dessa vez sobre os métodos toLowerCase e toUpperCase.">
+      <option name="closed" value="true" />
+      <created>1711500116810</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1711500116810</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Conclusão dos estudos de Enum criando uma calculadora seguindo as regras do exercício proposto." />
     <MESSAGE value="Estudos sobre as classes wrappers, porem elas se tornaram desatualizadas e no lugar usamos valurOf()." />
     <MESSAGE value="Estudos sobre as classes wrappers dessa vez focando nos conceito de autoboxing e unboxing." />
     <MESSAGE value="Estudos sobre importação estática de classes utilizando java.lang antes da classe." />
@@ -489,6 +498,7 @@
     <MESSAGE value="Estudo Sobre Strings e dessa vez sobre os métodos de comparação de Strings como equalsIgnoreCase, regionsMatches, startsWith, endsWith e compareTo." />
     <MESSAGE value="Estudo Sobre Strings e dessa vez sobre os métodos indexOf(), lastIndexOf() e contains()." />
     <MESSAGE value="Estudo Sobre Strings e dessa vez sobre os métodos substring, concat, replace e trim." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre Strings e dessa vez sobre os métodos substring, concat, replace e trim." />
+    <MESSAGE value="Estudo Sobre Strings e dessa vez sobre os métodos toLowerCase e toUpperCase." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre Strings e dessa vez sobre os métodos toLowerCase e toUpperCase." />
   </component>
 </project>
