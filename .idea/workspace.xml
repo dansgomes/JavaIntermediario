@@ -98,20 +98,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aula83">
-    <configuration name="Aula79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula79" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Aula84">
     <configuration name="Aula80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula80" />
       <module name="JavaIntermediario" />
@@ -164,13 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Aula84" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosStrings.Aula84" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula84" />
         <item itemvalue="Application.Aula83" />
         <item itemvalue="Application.Aula82" />
         <item itemvalue="Application.Aula81" />
         <item itemvalue="Application.Aula80" />
-        <item itemvalue="Application.Aula79" />
       </list>
     </recent_temporary>
   </component>
