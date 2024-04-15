@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe SimpleDateFormat e como pode ser utilizada em ambiente de trabalho e com sua formatação é mais prática do que aprendida anteriormente.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesUtilitarias/Aula90Locale.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe Locale e como seus métodos podem ser usados para formatar dados dependendo da nacionalidade de cada local.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesUtilitarias/Aula91DateFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     "Application.Aula88GregorianCalendar.executor": "Run",
     "Application.Aula89SimpleDateFormat.executor": "Run",
     "Application.Aula90Locale.executor": "Run",
+    "Application.Aula91DateFormat.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -105,20 +106,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aula90Locale">
-    <configuration name="Aula86Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula86Date" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosClassesUtilitarias.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Aula91DateFormat">
     <configuration name="Aula87Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula87Calendar" />
       <module name="JavaIntermediario" />
@@ -171,13 +159,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Aula91DateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula91DateFormat" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosClassesUtilitarias.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula91DateFormat" />
         <item itemvalue="Application.Aula90Locale" />
         <item itemvalue="Application.Aula89SimpleDateFormat" />
         <item itemvalue="Application.Aula88GregorianCalendar" />
         <item itemvalue="Application.Aula87Calendar" />
-        <item itemvalue="Application.Aula86Date" />
       </list>
     </recent_temporary>
   </component>
@@ -538,14 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712253345816</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe Locale e como seus métodos podem ser usados para formatar dados dependendo da nacionalidade de cada local.">
+      <option name="closed" value="true" />
+      <created>1712685097741</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1712685097741</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Estudo sobre anotações em Java e como programadores usam constantemente em seus projetos reais como Springboot e Hibernate, etc." />
     <MESSAGE value="Estudo sobre garbage collector e a quantidade de memória utilizada no java e no computador." />
     <MESSAGE value="Estudo sobre threads e suas utilidades, criando 3 threads simultaneas e utilizando os métodos starts, run e sleep." />
     <MESSAGE value="Estudo sobre threads e dessa vez implementando a classe Runnable ao invés deextends Thread, comparando as duas e aprendendo a utilizar cada uma na situação adequada" />
@@ -570,6 +578,7 @@
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe Calendar e como pode ser utilizada em ambiente de trabalho e boas práticas." />
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe GregorianCalendar e como pode ser utilizada em ambiente de trabalho e boas práticas." />
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe SimpleDateFormat e como pode ser utilizada em ambiente de trabalho e com sua formatação é mais prática do que aprendida anteriormente." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe SimpleDateFormat e como pode ser utilizada em ambiente de trabalho e com sua formatação é mais prática do que aprendida anteriormente." />
+    <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe Locale e como seus métodos podem ser usados para formatar dados dependendo da nacionalidade de cada local." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe Locale e como seus métodos podem ser usados para formatar dados dependendo da nacionalidade de cada local." />
   </component>
 </project>
