@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe ResourceBandle e aprendendo como colocar dinamismo com textos e outros tipos de arquivos na execução.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesUtilitarias/Aula96NumberFormat.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe NumberFormat pra formatar moedas, porcentagens e arredondamentos.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesUtilitarias/Aula97DecimalFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,7 @@
     "Application.Aula93DatasJava8.executor": "Run",
     "Application.Aula95ResourceBundle.executor": "Run",
     "Application.Aula96NumberFormat.executor": "Run",
+    "Application.Aula97DecimalFormat.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -116,20 +117,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aula96NumberFormat">
-    <configuration name="Aula91DateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula91DateFormat" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosClassesUtilitarias.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Aula97DecimalFormat">
     <configuration name="Aula92TimeZone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula92TimeZone" />
       <module name="JavaIntermediario" />
@@ -182,13 +170,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Aula97DecimalFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula97DecimalFormat" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosClassesUtilitarias.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula97DecimalFormat" />
         <item itemvalue="Application.Aula96NumberFormat" />
         <item itemvalue="Application.Aula95ResourceBundle" />
         <item itemvalue="Application.Aula93DatasJava8" />
         <item itemvalue="Application.Aula92TimeZone" />
-        <item itemvalue="Application.Aula91DateFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -589,14 +590,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713546125591</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe NumberFormat pra formatar moedas, porcentagens e arredondamentos.">
+      <option name="closed" value="true" />
+      <created>1713834008011</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1713834008011</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Estudo sobre threads nessa aula estudando sobre prioridades das Threads utilizando setPriority." />
     <MESSAGE value="Estudo sobre threads e dessa vez criando uma calculadora e testando que os valores do cálculo estavam sendo compartilhados entre as threads danificando o resultado e aprendendo sobre a palavra chave synchronized." />
     <MESSAGE value="Estudo sobre threads e dessa vez criando um programa Tic Tac pra conhecer e testar os métodos notify, wait e notifyAll." />
     <MESSAGE value="Estudo teórico sobre threads e seus métodos resume, suspend e stop." />
@@ -621,6 +629,7 @@
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe TimeZone (Fuso Horário) e testando métodos e utilidades para o dia a dia do desenvolvedor Java." />
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando as classes Data no Java8+ (LocalDate, LocalDateTime, LocalTime,Zoneld e ZoneDateTime." />
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe ResourceBandle e aprendendo como colocar dinamismo com textos e outros tipos de arquivos na execução." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe ResourceBandle e aprendendo como colocar dinamismo com textos e outros tipos de arquivos na execução." />
+    <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe NumberFormat pra formatar moedas, porcentagens e arredondamentos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe NumberFormat pra formatar moedas, porcentagens e arredondamentos." />
   </component>
 </project>
