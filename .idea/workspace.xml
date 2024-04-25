@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe DecimalFormat e quais são as boas práticas de se formatar casas decimais em java.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesUtilitarias/Aula98BigIntegerBigDecimal.java" afterDir="false" />
+    <list default="true" id="bfca213c-047d-4ccb-b833-9d05f31142d2" name="Changes" comment="Estudo Sobre classes utilitárias em Java dessa vez explorando a BigDecimal e BigInteger para lidar com grandes quantidades de números numa matemática mais exata para Java.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/javaintermediario/estudosClassesUtilitarias/Aula99NumerosAleatorios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Application.Aula96NumberFormat.executor": "Run",
     "Application.Aula97DecimalFormat.executor": "Run",
     "Application.Aula98BigIntegerBigDecimal.executor": "Run",
+    "Application.Aula99NumerosAleatorios.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ColetorLixo.executor": "Run",
     "Application.Deadlock.executor": "Run",
@@ -118,20 +119,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aula98BigIntegerBigDecimal">
-    <configuration name="Aula93DatasJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula93DatasJava8" />
-      <module name="JavaIntermediario" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaintermediario.estudosClassesUtilitarias.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Aula99NumerosAleatorios">
     <configuration name="Aula95ResourceBundle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula95ResourceBundle" />
       <module name="JavaIntermediario" />
@@ -184,13 +172,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Aula99NumerosAleatorios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaintermediario.estudosClassesUtilitarias.Aula99NumerosAleatorios" />
+      <module name="JavaIntermediario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaintermediario.estudosClassesUtilitarias.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aula99NumerosAleatorios" />
         <item itemvalue="Application.Aula98BigIntegerBigDecimal" />
         <item itemvalue="Application.Aula97DecimalFormat" />
         <item itemvalue="Application.Aula96NumberFormat" />
         <item itemvalue="Application.Aula95ResourceBundle" />
-        <item itemvalue="Application.Aula93DatasJava8" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +215,6 @@
       <workItem from="1708357202632" duration="8755000" />
       <workItem from="1708529900800" duration="2329000" />
       <workItem from="1708541088474" duration="8661000" />
-    </task>
-    <task id="LOCAL-00001" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
-      <option name="closed" value="true" />
-      <created>1708025741738</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1708025741738</updated>
     </task>
     <task id="LOCAL-00002" summary="Estudos Java sobre as classes Enum e sua diferença em utilização em comparação a constantes.">
       <option name="closed" value="true" />
@@ -607,14 +600,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713903438134</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Estudo Sobre classes utilitárias em Java dessa vez explorando a BigDecimal e BigInteger para lidar com grandes quantidades de números numa matemática mais exata para Java.">
+      <option name="closed" value="true" />
+      <created>1713993581085</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1713993581085</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Estudo sobre threads e dessa vez criando um programa Tic Tac pra conhecer e testar os métodos notify, wait e notifyAll." />
     <MESSAGE value="Estudo teórico sobre threads e seus métodos resume, suspend e stop." />
     <MESSAGE value="Estudo aplicado de Thread usando todo conhecimento adquirido para criar um programa que simula o comportamento de um semáforo." />
     <MESSAGE value="Estudo Sobre Strings e suas diversas funcionalidades e diferenças assim como descobrindo sobre como cada uma se comporta em espaço de memória." />
@@ -639,6 +639,7 @@
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe ResourceBandle e aprendendo como colocar dinamismo com textos e outros tipos de arquivos na execução." />
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe NumberFormat pra formatar moedas, porcentagens e arredondamentos." />
     <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe DecimalFormat e quais são as boas práticas de se formatar casas decimais em java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre classes utilitárias em Java dessa vez explorando a classe DecimalFormat e quais são as boas práticas de se formatar casas decimais em java." />
+    <MESSAGE value="Estudo Sobre classes utilitárias em Java dessa vez explorando a BigDecimal e BigInteger para lidar com grandes quantidades de números numa matemática mais exata para Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudo Sobre classes utilitárias em Java dessa vez explorando a BigDecimal e BigInteger para lidar com grandes quantidades de números numa matemática mais exata para Java." />
   </component>
 </project>
